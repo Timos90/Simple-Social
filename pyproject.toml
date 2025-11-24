@@ -1,7 +1,7 @@
 [project]
 name = "simple-social"
 version = "0.1.0"
-description = "Add your description here"
+description = "Simple Social is a full-stack web application that allows users to register, log in, and share posts with images and captions. It features a modern Python backend built with FastAPI and a simple, reactive frontend built with Streamlit."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -10,5 +10,6 @@ dependencies = [
     "fastapi-users[sqlalchemy]>=15.0.1",
     "imagekitio>=4.2.0",
     "python-dotenv>=1.2.1",
+    "streamlit>=1.51.0",
     "uvicorn[standard]>=0.38.0",
 ]
