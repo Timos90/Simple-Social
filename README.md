@@ -23,7 +23,14 @@ Simple Social is a full-stack web application that allows users to register, log
 
 ## 🎥 Demo Video
 
-https://github.com/Timos90/Simple-Social/blob/main/Screencast%20from%202025-11-28%2013-36-10.webm
+<p align="center">
+  <video 
+    src="https://github.com/user-attachments/assets/0e4436c8-023e-4321-bff8-45858b77ccfa" 
+    controls 
+    width="80%">
+  </video>
+</p>
+
 
 ---
 
