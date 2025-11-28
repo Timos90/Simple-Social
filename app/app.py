@@ -1,13 +1,5 @@
-"""
-Main FastAPI application for Simple Social.
-
-This file defines the main FastAPI application, including:
-- API endpoints for core features (uploading, feed, deleting posts).
-- Application lifecycle management (database creation on startup).
-- Inclusion of authentication and user management routers from fastapi-users.
-"""
 from fastapi import FastAPI, HTTPException, File, UploadFile, Form, Depends
-from app.schemas import PostCreate, PostResponse, UserRead, UserCreate, UserUpdate
+from app.schemas import UserRead, UserCreate, UserUpdate
 from app.db import Post, create_db_and_tables, get_async_session, User
 from sqlalchemy.ext.asyncio import AsyncSession
 from contextlib import asynccontextmanager

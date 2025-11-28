@@ -7,9 +7,11 @@ service, which is used for all media uploads and transformations.
 The ImageKit client is initialized using credentials (public key, private key,
 and URL endpoint) loaded securely from environment variables.
 """
-
+from dotenv import load_dotenv
 from imagekitio import ImageKit
 import os
+
+load_dotenv()
 
 # The ImageKit client is initialized once when the application starts. It can then
 # be imported and used throughout the application for any media operations.
